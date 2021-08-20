@@ -1,0 +1,108 @@
+li{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+.w-md-auto{
+    width:auto ;  
+}
+span,p,li{
+    display:inline-block;
+}
+p{
+    margin: 0;
+}
+.display-none-pc{
+    display: none;
+    @include md(){
+        display: block;
+    }
+}
+.list-none{
+    display:none ;
+    @include sm(){
+        display:block;
+    }
+}
+.list-date-none{
+    @include md(){
+        display:none ; 
+    }
+}
+.list-date-none-sm{
+    @include sm(){
+        display:none; 
+    }
+}
+/*menu-功能設定*/
+.nav-scroller{
+    height: 2.5rem;  /* 隱藏下方捲軸 */
+    overflow-y: hidden;
+    @include md(){
+        
+    }
+}
+.nav-scroller .nav{
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    height: 3rem;
+    @include md(){
+    }
+}
+.hover-line{
+    padding:0px 18px 0px;
+    height: 1.5rem;
+    display: block;
+    @include md(){
+        
+    }
+       
+}
+.hover-line:hover{
+     border-bottom: solid 1px $secondary;
+     @include md(){
+    }    
+}
+.hover-line:focus{   
+    @include sm(){
+        border-bottom: solid 1px $secondary;
+   }    
+}
+/**/
+.card-3{
+    width: 28%;
+    height: auto;
+    @include md(){
+    width: 100%;
+    }
+}
+.card-3 img{
+    width: 100%;
+    height: 416px;
+    @include md(){
+        height: 696px;
+        }
+    @include sm(){
+        height: 414px;
+    }    
+}
+.card-4{
+    width: 33.33%;
+    height: auto;
+    @include md(){
+    width: 100%;
+    }
+}
+.card-4 img{
+    width: 100%;
+    height: 416px;
+    @include md(){
+        height: 619px;
+        }
+    @include sm(){
+        height: 414px;
+    }
+}

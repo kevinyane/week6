@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%- title %></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="wrap container-fluid  border-bottom border-info">
+      <div class="container">
+      <div class="row">
+        <div class="left clo-3"></div>
+        <div class="logo col-6">
+          <span class="fw-bolder text-primary fs-4 my-6"><a href="index.html"> EXHIBINECTION</a></span>
+        </div>  
+          <ul class="menu col-3 mt-7 ">
+            <li class="menu-none me-12 me-md-2 menu-list-right"><a href="#">sign in</a></li>
+            <li class="menu-none me-12 me-md-2 menu-list-right"><a href="#">sign up</a></li>
+            <li class="ticket-menu" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              <a class="number-position" href="#">
+              <span class="material-icons sm-icon">confirmation_number</span>
+              <span class="number">3</span>
+              </a>
+            </li>
+            <li><!--彈出視窗-->
+              <div class="modal right fade modal-dialog modal-dialog-scrollable" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-warning fs-2 lh-48 fw-bolder" id="staticBackdropLabel">Cart List</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <!--視窗列表-->
+                    <div class="modal-body">
+                      <!--視窗列表-->
+                      <div class="card mb-3 card-width">
+                        <div class="row g-0 crad-list-height">
+                          <span class="material-icons card-close mt-md-1 ml-md-1 mt-sm-0 ml-sm-0" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><!--CLAOS-ICON-->
+                            close
+                            </span>
+                          <div class="modal-pic mt-12">
+                          </div>
+                          <div class="col-5 mt-md-4 card-sm-w">
+                            <div class="card-body card-pt text-left d-flex flex-column">
+                              <p class="card-h-text ">2020 台味設計</p>
+                              <p class="card-h-text text-info">01 JUN-31 OCT</p>
+                              <p class="card-text card-mb text-info">全票</p>
+                              <p class="fw-bolder card-price-text">NT$350</p>
+                            </div>
+                          </div>
+                          <div class="col-3 d-flex align-items-center">
+                            <p class="fs-5 fw-bolder ms-3">-</p>
+                            <p class="fs-5 fw-bolder ms-3">01</p>
+                            <p class="fs-5 fw-bolder ms-3">+</p>
+                          </div>  
+                        </div>
+                      </div>
+                      <!--視窗列表-->
+                      <div class="card mb-3 card-width">
+                        <div class="row g-0 crad-list-height">
+                          <span class="material-icons card-close mt-md-1 ml-md-1 mt-sm-0 ml-sm-0" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><!--CLAOS-ICON-->
+                            close
+                            </span>
+                          <div class="modal-pic mt-12">
+                          </div>
+                          <div class="col-5 mt-md-4 card-sm-w">
+                            <div class="card-body card-pt text-left d-flex flex-column">
+                              <p class="card-h-text ">2020 台味設計</p>
+                              <p class="card-h-text text-info">01 JUN-31 OCT</p>
+                              <p class="card-text card-mb text-info">全票</p>
+                              <p class="fw-bolder card-price-text">NT$350</p>
+                            </div>
+                          </div>
+                          <div class="col-3 d-flex align-items-center">
+                            <p class="fs-5 fw-bolder ms-3">-</p>
+                            <p class="fs-5 fw-bolder ms-3">01</p>
+                            <p class="fs-5 fw-bolder ms-3">+</p>
+                          </div>  
+                        </div>
+                      </div>
+                      <!--視窗列表-->
+                      <div class="card mb-3 card-width">
+                        <div class="row g-0 crad-list-height">
+                          <span class="material-icons card-close mt-md-1 ml-md-1 mt-sm-0 ml-sm-0" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><!--CLAOS-ICON-->
+                            close
+                            </span>
+                          <div class="modal-pic mt-12">
+                          </div>
+                          <div class="col-5 mt-md-4 card-sm-w">
+                            <div class="card-body card-pt text-left d-flex flex-column">
+                              <p class="card-h-text ">2020 台味設計</p>
+                              <p class="card-h-text text-info">01 JUN-31 OCT</p>
+                              <p class="card-text card-mb text-info">全票</p>
+                              <p class="fw-bolder card-price-text">NT$350</p>
+                            </div>
+                          </div>
+                          <div class="col-3 d-flex align-items-center">
+                            <p class="fs-5 fw-bolder ms-3">-</p>
+                            <p class="fs-5 fw-bolder ms-3">01</p>
+                            <p class="fs-5 fw-bolder ms-3">+</p>
+                          </div>  
+                        </div>
+                      </div>
+                    </div>  
+                                                     
+                    <!--結帳-->
+                    <div class="modal-footer d-flex justify-content-between">
+                      <div class="d-flex">
+                      <p class="text-warning fs-5 me-4">小計</p>
+                      <p class="text-warning fs-5">NT$1050</p>
+                      </div>
+                      <button type="button" class="btn btn-outline-primary btn-warning text-primary">前往結帳</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>  
+         
+          <ul class="menu-list">
+            <span>Cart list</span>
+            <li class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <div class="image-w">
+                    <img src="..." class="img-fluid rounded-start" alt="...">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title">2020 台味設計展</h5>
+                      <p class="card-text">01 JUN-31 OCT</p>
+                      <p class="card-text"><small class="text-muted">全票</small></p>
+                      <p class="card-text"><span>NT$350</span></p>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="card-body">
+                        <h5 class="card-title">+</h5>
+                        <p class="card-text">01</p>
+                        <p class="card-text"><small class="text-muted">-</small></p>
+                      </div>
+                  </div>
+                </div>
+            </li>
+            <li></li>
+            <li></li>
+          </ul>
+      </div>
+    </div>
+  </div>  
+    <!--BANNER-->
+    
+
+    
+
+    <%- contents %>
+
+  
+     <div class="container-luid bg-img">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-12 footer-warp">
+              <h1 class="dispkay-5 fw-bold text-warning ">想收到最新消息嗎？<br>快訂閱我們!</h1>
+              <form class="d-flax mob-mt">
+              <input class="form-control input-w rounded-start" type="輸入您的電子信箱" placeholder="輸入您的電子信箱" aria-label="Email">
+              <button class="btn btn-secondary rounded-end but-w" type="submit">訂閱</button>
+              </form>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="copyright container">
+        <div class="d-flex justify-content-between py-xl-6 py-md-6 py-3">
+          <div class="list-left">
+            <span class="fw-bolder fs-4">EXHIBINECTION</span>
+            <p class="fs-6">© 2020.All Rights Reserved.</p>
+          </div>
+          <ul class="list-rigt list-pd-r">
+            <li class=""><a class="fs-6 text-info me-4" href="#">sign in</a> </li>
+            <li clas=""><a class="fs-6 text-info" href="#"> sign up </a> </li>
+          </ul>
+        </div>
+      </div>
+    
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>

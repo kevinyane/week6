@@ -1,0 +1,242 @@
+/*sm上隱藏選單*/
+.menu-none{
+    @include sm(){
+        display:none;
+    }
+}
+.left{
+    width: 25%;
+}
+.logo{
+    margin: 0 auto;
+    text-align:center;
+}
+.menu{
+    text-align:right;
+    
+}
+.material-icons{
+    vertical-align: text-bottom;
+}
+/*票ICON 又上的數字*/
+.number-position{
+    position: relative;
+}
+.number{
+    background-color:$secondary;
+    width: 22px;
+    height: 18px;
+    border-radius: 50%;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    color: $warning;
+    position: absolute;
+    right:-60%;
+    top: -50%; 
+    @include sm(){
+        right:-10%;
+    } 
+}
+.sm-icon{
+    @include sm(){
+    margin-right: 11px;
+    }
+}
+.menu-list{
+    display:none;
+
+}
+.image-w{
+    width: 120px;
+    height: auto;
+}
+.image-w img{
+    max-width: 100%;
+}
+.title{
+    height: auto;
+}
+.menu-list-right{
+    @include md(){
+        display:none;  
+    }
+}
+
+/*彈出視窗*/
+.modal.right .modal-dialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    transform: translate3d(0%, 0, 0);
+  }
+  
+  .modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+  }
+  .modal{
+    &-content {
+      border-radius: 0;
+      border: none;
+      background-color: $dark;
+    }
+    &-header {
+      border-bottom: none;
+    }
+    &-body{
+        height: 0px;
+      .card{
+        max-width: 540px;
+      }
+    }
+    &-footer {
+      border-top: none;
+    }
+  }
+
+  .modal-pic{
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true);
+    max-width: 120px;
+    height: 120px;
+    background-size:cover;
+    background-position:center;
+  }
+.text-left{
+    text-align: left;
+}
+/*card*/
+.card-width{
+    max-width: 540px;
+    }
+.card-close{
+    width: 24px;
+}
+.crad-list-height{
+    height:172px;
+}
+.card-number{
+    width: 5%;
+}
+.card-text{
+    font-size:20px;
+    @include md(){
+        font-size:16px;  
+    }
+    @include sm(){
+        font-size: 12px;
+    }
+}
+.card-h-text{
+    font-size:20px;
+    font-weight: bolder;
+    @include md(){
+        font-size:20px;  
+    }
+    @include sm(){
+        font-size: 16px;
+    }
+}
+.card-price-text{
+    font-size:20px;
+    font-weight: bolder;
+    @include md(){
+        font-size:20px;  
+    }
+}
+
+.card-pt{
+    padding: 0.5rem 1rem;
+}
+.card-mb{
+    @include md(){
+    margin-bottom: 0.5rem;
+    }
+}
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0.5rem 1rem;
+    @include sm(){
+        padding: 2.5rem 0rem 0rem 0.5rem;
+    }
+}
+.card-sm-w{
+    @include sm(){
+    width: 33.33%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+.bg-img{
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true);
+    max-width: 100%;
+    height: 400px;
+    background-size:cover;
+    background-position:center;
+
+}
+.footer-warp{
+    height: auto;
+    padding-top: 208px;
+    @include md(){
+        padding-top: 180px;
+    }
+    @include sm(){
+        padding-top: 222px;
+    }
+}
+.input-w{
+    width: 214px;
+    display: inline-block;  
+    padding: 12px 12px;
+    @include md(){
+        width: 68%;
+    }
+
+}
+.but-w{
+    padding: 12px 52px;
+    @include md(){
+        padding: 12px 0px;
+        width: 30%;
+    }
+ 
+}
+.mob-mt{
+     margin-top: 22px;
+}
+.list-left{
+ display:block;
+}
+.list-pd-r{
+    padding-left:0 ;
+}
+.list-rigt{
+    display: block;
+    @include sm{
+        display:none
+    }
+}
+
+

@@ -1,0 +1,100 @@
+
+.hover-line a{
+    display: block;
+}
+.image-md{
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true);
+    background-size:cover;
+    background-position:center;
+    height: 256px;
+    width: 100%; 
+}
+.ticket-list{
+    width: 25%;
+    @include md(){
+        width: 50%;
+    }
+    @include sm(){
+        width: 100%;
+    }
+}
+.title-lisr-h{
+    width: 35%;
+}
+.titke-list-date{
+    width: 40%;
+    display: block;
+}
+
+.tickte-list-in{
+    height: 256px;
+    width: 100%;
+    border-right: 1px solid $info;
+    @include sm(){
+        height: 100px;
+        border-right: 0px;
+        margin-bottom: 40px;
+    }
+}
+.tickte-price{
+    width: 25%;
+    @include md(){
+        width: 50%;
+    }
+    @include sm(){
+        width: 100%;
+    }
+
+}
+.ticket-warp{
+    height: 256px;
+    @include sm(){
+        height: 140px;
+        border-right: 0px;
+    }
+}
+.btn-w{
+    width: 100%;
+    @include sm (){
+        width: 48%;
+    }
+}
+.width-10{
+    width:14.3% ;
+    margin-top: 40px;
+    
+}
+.line-height30{
+    line-height: 30px;
+}
+.lh-60{
+    line-height: 60px;
+}
+.text-center{
+    text-align: center;
+}
+.pic-12{
+    width: 100%;
+    height: auto;
+}
+.pic-12 img{
+    width: 100%;
+    height: 400px;
+}
+.pic-3{
+    width: 28.3%;
+    height: auto;
+    @include md(){
+        width: 100%;
+    }
+
+}
+.pic-3 img{
+    width: 100%;
+    height: 559px;
+    @include md(){
+        
+    }
+}
+
+
